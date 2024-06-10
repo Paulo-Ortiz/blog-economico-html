@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Blog_Economico_Paulo_Ortiz_Cadastro.css">
+    <title>Blog Econômico</title>
+</head>
+<body>
+    <header>
+        <img src="economia.png" alt="" class="float">
+        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Blog</h1>
+        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Econômico</h1>
+    </header>
+    <hr style="border: solid black 1px; margin: 1px;">
+    <nav>
+        <ul>
+            <li class="dropdown"><a href="#sobre">HOME</a>
+                <div class="dropdown-conteudo">
+                    <a href="Blog_Economico_Paulo_Ortiz_Backup.html" target="_blank">Página Principal</a>
+                </div>
+            </li>
+
+            <li class="dropdown"><a href="#sobre">MOEDAS</a>
+                <div class="dropdown-conteudo">
+                    <a href="https://economia.uol.com.br/cotacoes/" target="_blank">Câmbio</a>
+                </div>
+            </li>
+
+            <li class="dropdown"><a href="#">POLÍTICA</a>
+                <div class="dropdown-conteudo">
+                    <a href="https://noticias.uol.com.br/politica/" target="_blank">Principais Notícias</a>
+                </div>
+            </li>
+
+            <li class="dropdown"><a href="#">AÇÕES</a>
+                <div class="dropdown-conteudo">
+                    <a href="Blog_Economico_Paulo_Ortiz_Cotações.html" target="_blank">Cotações em outra página HTML</a>
+                    <a href="https://economia.uol.com.br/cotacoes/" target="_blank">Cotações</a>
+                    <a href="https://economia.uol.com.br/mais/carteira-recomendada/" target="_blank">Achados da Bolsa</a>
+                </div>
+            </li>
+
+            <li class="dropdown"><a href="#">RENDA FIXA</a>
+                <div class="dropdown-conteudo">
+                    <a href="https://economia.uol.com.br/mais/renda-fixa/" target="_blank">Investimentos</a>
+                    <a href="https://economia.uol.com.br/dinheiro-e-renda/" target="_blank">Dinheiro e Renda</a>
+                </div>
+            </li>
+
+            <li class="dropdown"><a href="#">FUNDOS IMOBILIÁRIOS</a>
+             <div class="dropdown-conteudo">
+                    <a href="https://economia.uol.com.br/mais/fundos-imobiliarios/" target="_blank">Cotações</a>
+                </div>
+            </li>
+
+            <li class="dropdown"><a href="#">EMPRESAS</a>
+                <div class="dropdown-conteudo">
+                    <a href="https://economia.uol.com.br/empresas-e-negocios/" target="_blank">Empresas e Negócios</a>
+                </div>
+            </li>
+
+            <li class="dropdown"><a href="#">ECONOMIA</a>
+                <div class="dropdown-conteudo">
+                    <a href="https://economia.uol.com.br/" target="_blank">Em Destaque</a>
+                    <a href="https://economia.uol.com.br/blogs-e-colunas/" target="_blank">Blogs e Colunas</a>
+                </div>
+            </li>
+
+            <li class="dropdown"><a href="#">MUNDO</a>
+                <div class="dropdown-conteudo">
+                    <a href="https://economia.uol.com.br/guia-de-economia/" target="_blank">Guia de Economia</a>
+                    <a href="https://economia.uol.com.br/temas/lideres/" target="_blank">Temas Líderes</a>
+                </div>
+            </li>
+
+            <li class="dropdown"><a href="#">MERCADO HOJE</a>
+                <div class="dropdown-conteudo">
+                    <a href="https://economia.uol.com.br/mais/" target="_blank">Investimentos</a>
+                </div>
+            </li>
+
+            <li class="dropdown"><a href="#">FIQUE POR DENTRO</a>
+                <div class="dropdown-conteudo">
+                    <a href="https://www.uol.com.br/guia-de-compras/" target="_blank">Guia de Compras</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <hr style="margin: 1px;">
+
+    <form style="text-align: center;">
+        <fieldset style="border-radius: 15px; background-color: rgb(240, 240, 240); margin-right: 20%; margin-left: 20%;">
+            <legend>Cadastre-se na nossa Newsletter</legend>
+        <div>
+            <label style="font-weight: bold;" for="nome1">Nos diga o seu nome completo</label><br>
+            <input type="text" id="nome1" name="nome" placeholder="Informe o seu nome" autofocus style="width: 40%;">
+        </div>
+        <br>
+        <div>
+            <label style="font-weight: bold;" for="apelido">Como gostaria de ser chamado</label><br>
+            <input class="altura" type="text" id="apelido" name="apelido" placeholder="Informe um apelido" required>
+        </div>
+        <br>
+        <div>
+            <label style="font-weight: bold;" for="email">Cadastre o seu melhor e-mail</label><br>
+            <input style="width: 19%;" type="email" id="email" name="email" value="" placeholder="Informe o seu e-mail">
+            <label for="email"></label>
+            <input type="email" id="@" name="@" value="@hotmail.com" readonly>
+        </div>
+        <br>
+        <div>
+        <label style="font-weight: bold;" for="dt_nascimento">Informe sua data de nascimento:</label>
+        <input type="date" id="dt_nascimento" name="nascimento" value="">
+        </div>
+        <br>
+        <div>
+            <label style="font-weight: bold;">
+            Informe o seu estado civil:
+                <select name="estado_civil">
+                    <option value="solteiro">Solteiro(a)</option>
+                    <option value="casado">Casado(a)</option>
+                    <option value="divorciado">Divorciado(a)</option>
+                    <option value="viuvo">Viúvo(a)</option>
+                </select>
+            </label>
+        </div>
+        <br>
+        <div>
+            <p style="text-align: center; font-weight: bold;">Informe a sua idade:</p>
+                <input type="radio" id="18-30" name="idade" value="18 à 30 anos">
+                <label for="18-30">18 à 30 anos</label>
+                <input type="radio" id="31-40" name="idade" value="31 à 40 anos">
+                <label for="31-40">31 à 40 anos</label>
+                <input type="radio" id="41-60" name="idade" value="41 à 60 anos">
+                <label for="41-60">41 à 60 anos</label>
+                <input type="radio" id="+60" name="idade" value="+60">
+                <label for="+60">Acima de 60 anos</label>
+        </div>
+        <br>
+        <div>
+            <p style="text-align: center; font-weight: bold;">Informe a sua renda:</p>
+            <input type="checkbox" id="2_salarios" name="renda" value="2_salarios">
+            <label for="2_salarios"> Até 2 salários mínimos</label>
+            <input type="checkbox" id="4_salarios" name="renda" value="4_salarios">
+            <label for="4_salarios"> De 3 a 4 salários mínimos</label>
+            <input type="checkbox" id="6_salarios" name="renda" value="6_salarios">
+            <label for="6_salarios"> De 5 a 6 salários mínimos</label>
+            <input type="checkbox" id="7_salarios" name="renda" value="7_salarios">
+            <label for="7_salarios"> Acima de 7 salários mínimos ou mais</label>
+        </div>
+        <br>
+        <div>
+            <label style="font-weight: bold;" for="">Selecione uma foto de perfil:<br> 
+            <input type="file" name="foto_perfil" accept="image/jpeg" required></label>
+        </div>
+        <br>
+        <div>
+            <label style="font-weight: bold;" for="area">Escreva uma pequena biografia sobre você:</label><br>
+            <textarea name="area" id="mensagem" rows="7" cols="80" maxlength="500" placeholder="Limite máximo de 500 caracteres"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Cadastrar Newsletter">
+            <input type="reset" value="Limpar dados">
+        </div>
+        </fieldset>
+    </form>
+
+<br>
+<footer style="background-color: rgb(224, 223, 223); border-radius: 10px;">
+    <a href="Blog_Economico_Paulo_Ortiz_Backup.html" target="_blank"><h2 style="text-align: center; padding-top: 10px;">Sobre o BLOG</h2></a>
+    <ul style="margin-bottom: 20px;">
+        <li>Conheça nossa história</li>
+        <li>Fale conosco</li>
+        <li>SAC</li>
+        <li>Termos de Uso</li>
+        <li>Aviso de Direitos autorais</li>
+        <li>Cadastre-se no BLOG</li>
+        <li>Anuncie no BLOG</li>
+        <li>Seja nosso parceiro</li>
+    </ul>        
+</footer>
+
+</body>
+</html>
